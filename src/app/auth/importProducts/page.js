@@ -24,7 +24,7 @@ const Home = () => {
   }
 
   const handleCancel=()=>{
-   
+   router.push('/');
   }
   return (
     <>
