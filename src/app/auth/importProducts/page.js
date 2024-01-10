@@ -28,11 +28,11 @@ const Home = () => {
   }
   return (
     <>
-      <div className=" bg-gradient-to-r from-sky-400 to-blue-800 text-white text-2xl p-4">
-        <Badge variant={'outline'} className={'text-2xl text-white bg-[#0f172a]'}>Import Products</Badge>
+      <div className="  text-2xl p-4  justify-center ">
+        <nav variant={'outline'} className={'text-2xl bg-slate-300 rounded-lg text-center m-2 p-2'}>Import Products</nav>
       </div>
 
-      <ResizablePanelGroup direction="vertical" className='bg-gradient-to-r from-sky-400 to-blue-800'>
+      <ResizablePanelGroup direction="vertical" className=''>
         <ResizablePanel className="upper-row p-4 flex">
           <ResizablePanelGroup direction='horizontal'>
             <ResizablePanel>
@@ -45,14 +45,14 @@ const Home = () => {
           </ResizablePanelGroup>
         </ResizablePanel>
         <ResizableHandle />
-        <ResizablePanel className="row lower-row p-4">
-          <div className="col">
+        <ResizablePanel className="row lower-row p-4 ">
+          <div className="col flex ml-96 items-center">
             <LowerComponent />
           </div>
         </ResizablePanel>
       </ResizablePanelGroup>
 
-      <div className=" bg-gradient-to-r from-sky-400 to-blue-800 text-white text-2xl p-4 flex justify-end gap-2">
+      <div className="  text-white  text-2xl p-4 flex justify-end gap-2">
         <Button className="bg-green-600 hover:bg-green-700" onClick={handleNext}>Next</Button>
         <Button className="bg-red-500 hover:bg-red-600" onClick={handleCancel}>Cancel</Button>
       </div>

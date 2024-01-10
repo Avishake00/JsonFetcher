@@ -24,7 +24,7 @@ const UpperRightComponent = () => {
  
 
   return (
-    <div className="card overflow-auto flex gap-2 bg-white text-black">
+    <div className="card overflow-auto flex gap-2 bg-gray-300 text-black">
         <div className='row '>
 
       <h2>Step 2:</h2>

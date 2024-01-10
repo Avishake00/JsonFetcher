@@ -14,7 +14,7 @@ const UpperLeftComponent = ({ onFileChange }) => {
 
   
   return (
-    <div className="card overflow-auto flex gap-6 mt-4 bg-white">
+    <div className="card overflow-auto flex gap-6 mt-4  bg-gray-300  ">
       <div className="row ml-5">Step 1:</div>
       <div className="row">
         <h2 className="mb-4 text-xl font-semibold">Select File</h2>

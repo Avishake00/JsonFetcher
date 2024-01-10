@@ -37,7 +37,7 @@ const LowerComponent = () => {
 
 
   return (
-    <div className="card overflow-auto flex gap-2 bg-white text-sm">
+    <div className="card overflow-auto flex gap-2 bg-gray-300 w-2/3 h-[400px] text-sm">
       <div className="col">
         <div className="row">
         <Checkbox checked />
@@ -52,9 +52,9 @@ const LowerComponent = () => {
         
         <p className="text-sm font-semibold p-2">Select the feilds to be displayed</p>
         <div className="boxes-container">
-          <div className="box text-center">
+          <div className="box text-center ">
             <p className="box-title">Available Feilds</p>
-            <div className="elements-box card text-center h-52 overflow-y-auto">
+            <div className="elements-box card text-center h-52 overflow-y-auto bg-white">
               {initialElements.map((element, index) => (
                 <div key={index} className="element-card bg-[#0f172a] text-white">
                   {element}
@@ -74,7 +74,7 @@ const LowerComponent = () => {
 
           <div className="box text-center">
             <p className="box-title">Feilds to be Displayed</p>
-            <div className="elements-box chosen-elements-box card text-center h-52 overflow-y-auto">
+            <div className="elements-box chosen-elements-box card text-center h-52 overflow-y-auto bg-white">
               {selectedElements.map((element, index) => (
                 <div key={index} className="element-card bg-[#0f172a] text-white">
                   {element}
